@@ -3528,13 +3528,23 @@ Blog-page
             right: 32%;
         }
     }
-    /*======== Media Query 425px ========*/
-    @media only screen and (max-width: 425px) {
+    /*======== Media Query 435px ========*/
+     @media only screen and (max-width: 435px) {
+
+      .navbar-header
+      {
+        height: 60px;
+      }
+      .navbar-header img{
+        width: 130px;
+      }
+
         .banner {
             height: 500px;
+            margin-left: 50px;
         }
         .banner h1 {
-            font-size: 30px;
+            font-size: 35px;
             letter-spacing: 2px;
         }
         .banner p {
@@ -3555,6 +3565,14 @@ Blog-page
             left: 8%;
             right: 13%;
             justify-content: center;
+            /* margin-left: 20px; */
+            
+        }
+        .about img{
+          margin-left: 30px;
+          height: 300px;
+          margin-top: 5px;
+
         }
         .about .text-block a span {
             font-size: 28px;
@@ -3570,8 +3588,9 @@ Blog-page
             font-size: 2.5em;
         }
         .technologies {
-            padding-top: 50px;
+            padding-top: 90px;
             padding-bottom: 0px;
+            margin-left: 45px;
         }
         .technologies .view-technologie .btn {
             width: 100px;
@@ -3584,6 +3603,11 @@ Blog-page
         .technologies .technologie h3 {
             font-size: 20px;
         }
+        .part{
+          margin-left: 45px;
+        }
+
+        
         .specialities .inner-contant {
             margin: 20px;
         }
@@ -3622,6 +3646,7 @@ Blog-page
         .customers {
             padding-top: 20px;
             padding-bottom: 20px;
+            margin-left: 45px;
         }
         .contact input {
             height: 42px;
@@ -3635,6 +3660,7 @@ Blog-page
         footer {
             padding-bottom: 50px;
             padding-top: 20px;
+            margin-left: 45px;
         }
         footer li a {
             padding: 8px;
@@ -3659,6 +3685,9 @@ Blog-page
         #blog .bt {
             padding-top: 0;
         }
+        .services{
+          margin-left: 40px;
+        }
         #services h3 {
             font-size: 22px;
         }
@@ -3681,7 +3710,11 @@ Blog-page
         .services h3 {
             font-size: 32px;
         }
-    }
+
+        .contact{
+          margin-left: 45px;
+        }
+    } 
     /*======== Media Query 375px ========*/
     @media only screen and (max-width: 375px) {
         .banner h1 {
