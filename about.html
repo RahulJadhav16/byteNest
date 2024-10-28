@@ -20,15 +20,26 @@
 .banner {
     display: flex;
     align-items: center;
-    height: 50vh;
-    color: #fff;
-    position: relative;
-    text-transform: uppercase;
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('images/banner.jpg');
+    height: 20vh;
+    /* background-image: url('images/banner.jpg'); */
 }
+.navbar-header img{
+    width: 150px;
+
+}
+.footer-logo img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 435px) {
+    footer {
+            padding-bottom: 50px;
+            padding-top: 20px;
+            margin-left: 0px;
+        }
+}
+
+
 .banner  h1 {
     text-align: left;
 }
@@ -62,7 +73,7 @@ footer {background-image: url("images/banner-customers.jpg");background-repeat: 
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo3.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <!-- Nav links -->
@@ -71,13 +82,12 @@ footer {background-image: url("images/banner-customers.jpg");background-repeat: 
                    <li class="hidden-xs">|</li>
                    <li><a href="about.html">About</a></li>
                    <li class="hidden-xs">|</li>
-                   <li><a href="services.html">services</a></li>
+                   <li><a href="index.html">services</a></li>
                    <li class="hidden-xs">|</li>
-                   <li><a href="portfolio.html">portfolio</a></li>
+                   <li><a href="index.html">portfolio</a></li>
                    <li class="hidden-xs">|</li>
-                   <li><a href="blog.html">Blog</a></li>
                    <li class="hidden-xs">|</li>
-                   <li><a href="contact.html">contact</a></li>
+                   <li><a href="index.html">contact</a></li>
                 </ul>
             </div>
         </div>
@@ -85,7 +95,7 @@ footer {background-image: url("images/banner-customers.jpg");background-repeat: 
 <!-- Navbar Ended-->
 
 <!-- Jumbotron Start-->
-<div class="text-center banner">
+<!-- <div class="text-center banner">
    <div class="gradient"></div>
     <div class="container">
        <div class="row">
@@ -94,22 +104,40 @@ footer {background-image: url("images/banner-customers.jpg");background-repeat: 
            </div>
        </div>
     </div>
+</div> -->
+<div class="text-center banner">
+    <h1> About us</h1>
 </div>
 <!-- Jumbotron Ended-->
 
 <div id="about-us">
-  <div class="container">
+  <div class="">
      <div class="row" style="margin-right: 0; margin-left: 0;" data-aos="fade-up" data-aos-duration="1500">
+
+        <div class="col-md-3">
+            <div class="Mabout">
+                <iframe src="https://lottie.host/embed/d2db9659-5fff-4152-9363-32a9e92dde2c/GeSrrJXDYL.json" frameborder="0"
+           
+                width="400" 
+               height="300"
+               >
+                ></iframe>
+               </div>
+            
+        </div>
    
-     <img src="images/about.jpg" alt="" class="image">
-     
-     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing and typesetting industry. Lorem Ipsum has been thdummy text of the e industry's...e  <br><br>
-     
-     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing and typesetting industry.Lorem Ipsum has been thdummy text of the e industry's...e industry's...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing typesetting typesetting typesetting typesetting typesetting industry. Lorem Ipsum has been thdummy text of the e industry's...e industry's... <br><br><br><br>
-     
-     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing and typesetting industry. Lorem Ipsum has been thdummy text of the e typesetting ...e industry's...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing and typesetting industry. Lorem Ipsum has been thdummy text of the e industry's...e industry' Lorem Ipsum is simply du <br><br>
-     
-     mmy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing and typesetting industry. Lorem Ipsum has been thdummy text of the e industry's...e industry's...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem industry. Lorem Ipsum has been dummy text of the printing typesetting typesetting typesetting typesetting typesetting industry. Lorem Ipsum has been thdummy text of the e industry's...e industry's... <br><br></p>
+     <!-- <img src="images/about.jpg" alt="" class="image"> -->
+
+
+     <div class="container">
+     <p>
+        Welcome to ByteNest! We’re excited to have you here. As a leading web design and development agency, we are dedicated to transforming your digital presence through innovative and effective web solutions.
+
+        At ByteNest, we believe in leveraging the latest technologies to create websites that are not only visually stunning but also functional and user-friendly. Our commitment to excellence ensures that every project reflects our passion for quality and creativity.
+        
+        Whether you’re looking to build a brand-new website, revamp an existing platform, or launch an online store, our skilled team is here to turn your vision into reality. We pride ourselves on our ability to understand your unique needs and deliver tailored solutions that drive success.
+        
+        Thank you for choosing ByteNest. We look forward to partnering with you on your digital journey! <br><br></p></div>
      </div>
   </div>
 </div>
@@ -117,20 +145,18 @@ footer {background-image: url("images/banner-customers.jpg");background-repeat: 
 <!-- Footer section Start -->
 <footer>
     <!-- container Start-->
-    <div class="container">
+    <div class="container aboutFooter">
        <div class="row" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
            <ul>
                <li><a href="index.html">Home </a></li><li class="semicolon">|</li>
-               <li><a href="services.html">our services</a></li><li class="semicolon">|</li>
-               <li><a href="portfolio.html">portfolio</a></li><li class="semicolon">|</li>
-               <li><a href="blog_single.html">Read Blog</a></li><li class="semicolon">|</li>
-               <li><a href="contact.html">contact</a></li><li class="semicolon">|</li>
-               <li><a href="support.html">support</a></li>
+               <li><a href="index.html">our services</a></li><li class="semicolon">|</li>
+               <li><a href="index.html">portfolio</a></li><li class="semicolon">|</li>
+               <li><a href="index.html">contact</a></li><li class="semicolon">|</li>
            </ul>
-           <p>(C) 2017 All rights reserved <span><a href="https://www.template.net/editable/websites/html5" target="_blank" style="color: #b9b203;">ostacor.</a></span>Designed by <span><a href="https://www.template.net/editable/websites/html5" target="_blank" style="color: #03b9b3;">template.net</a></span></p>
+           <p>(C) 2024 All rights reserved <span><a href="https://www.template.net/editable/websites/html5" target="_blank" style="color: #b9b203;">ByteNest</span></p>
        </div>
        <div class="footer-logo">
-              <a href="index.html"><img src="images/logo.png" alt="footer-logo"></a>
+              <a href="index.html"><img src="images/logo3.png" alt="footer-logo"></a>
        </div>
     </div>
     <!-- container Ended-->

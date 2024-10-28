@@ -2,7 +2,9 @@
        Corporate Agency Website Stylesheet
              Body Core Stylesheet
 ======================================================*/
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -198,17 +200,29 @@ a:hover {
 }
 
 .banner h1 {
-    font-size: 47px;
+    font-size: 77px;
     font-weight: 700;
     letter-spacing: 4px;
     padding-bottom: 12px;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 .banner p {
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    padding-bottom: 35px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding-bottom: 35px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .banner p .btn-primary,
@@ -249,6 +263,12 @@ a:hover {
     left: 13%;
     right: 13%;
     justify-content: center;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 .about .inner-contant {
@@ -267,8 +287,14 @@ a:hover {
 
 .about .text-block a span {
     color: #00ffff;
-    font-size: 32px;
-    line-height: 2;
+      font-size: 32px;
+      line-height: 2;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 .about .text-block p {
@@ -328,6 +354,12 @@ a:hover {
     font-weight: 600;
     color: #61f1cf;
     padding-bottom: 15px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .technologie p {
@@ -335,6 +367,12 @@ a:hover {
     font-weight: 600;
     color: #ffffff;
     line-height: 25px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .view-technologie h2 {
@@ -343,6 +381,12 @@ a:hover {
     color: #50eaef;
     padding-bottom: 15px;
     letter-spacing: -1px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .view-technologie h4 {
@@ -351,6 +395,12 @@ a:hover {
     color: #8decef;
     padding-bottom: 22px;
     text-transform: uppercase;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .view-technologie p,
@@ -360,6 +410,12 @@ a:hover {
     line-height: 2;
     color: #fefefe;
     padding-bottom: 43px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .view-technologie .btn {
@@ -372,6 +428,12 @@ a:hover {
     margin-bottom: 186px;
     background-color: #2e3192;
     text-transform: uppercase;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .technologies .btn:hover {
@@ -420,12 +482,24 @@ a:hover {
     color: #61ffed;
     font-size: 37px;
     padding-bottom: 20px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .specialities h4 {
     color:  #61ffed;;
     font-size: 18px;
     padding-bottom: 50px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .specialities .progress {
@@ -434,6 +508,12 @@ a:hover {
     margin: 0 55px;
     margin-bottom: 35px;
     border-radius: 6px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .specialities .progress-bar {
@@ -462,22 +542,33 @@ a:hover {
 .services {
     text-align: center;
     padding-top: 77px;
+
 }
 
+
 .services h3 {
-    font-size: 37px;
-    font-weight: 700;
-    padding-bottom: 12px;
-    color: rgb(251, 246, 246);
-    text-transform: capitalize;
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
 }
 
 .services h4 {
+  margin-top: 25px;
     font-size: 18px;
-    color: rgb(14, 14, 14);
+    color: rgb(252, 245, 245);
     letter-spacing: 3px;
     padding-bottom: 70px;
     text-transform: uppercase;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+   
+    
 }
 
 .services h5 {
@@ -653,12 +744,21 @@ a:hover {
 }
 
 .contact h3 {
-    font-size: 37px;
+    /* font-size: 37px;
     font-weight: 600;
     word-spacing: 3px;
     letter-spacing: -2px;
     padding-bottom: 15px;
-    color: #61ffed;
+    color: #61ffed; */
+    color: white;
+
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
 }
 
 .contact h4 {
@@ -671,12 +771,21 @@ a:hover {
 }
 
 .contact p {
-    color: #fdfdfd;
+    /* color: #fdfdfd;
     font-size: 13px;
     font-weight: 500;
     line-height: 25px;
     padding-bottom: 35px;
-    padding-right: 57px;
+    padding-right: 57px; */
+    color: white;
+
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
 }
 
 .contact address p {
@@ -715,6 +824,12 @@ a:hover {
     letter-spacing: 1px;
     background-color: #2e3192;
     text-transform: uppercase;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .contact .btn:hover {
@@ -1087,16 +1202,25 @@ footer .form-control {
     padding-top: 120px;
 }
 
+
+
 #about-us p {
-    margin: 0;
-    color: #808080;
+
+  
+    color: #fffcfc;
     font-size: 17px;
     line-height: 1.6;
     font-weight: 100;
     text-align: justify;
     padding: 0 0;
     font-family: Helvetica;
-    margin-bottom: 250px;
+    margin-top: 80px;
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #about-us .image {
@@ -3253,10 +3377,16 @@ Blog-page
     #about-us p {
         margin-bottom: 60px;
         font-size: 16px;
+        margin-left: 16px;
     }
-    #about-us {
-        padding-top: 50px;
-    }
+/* Auto Scroll */
+    html {
+      scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+  section {
+      padding: 50px 0; /* Adds some space around each section */
+  }
+  
     #blog h6 {
         font-size: 14px;
         letter-spacing: 1px;
@@ -3449,6 +3579,7 @@ Blog-page
         }
         .banner h1 {
             font-size: 34px;
+            margin-top: 10px;
         }
         .banner p {
             font-size: 21px;
@@ -3462,6 +3593,7 @@ Blog-page
             margin-right: 5px;
             padding: 13px 0;
         }
+     
         #services h3 {
             font-size: 32px;
         }
@@ -3530,6 +3662,10 @@ Blog-page
     }
     /*======== Media Query 435px ========*/
      @media only screen and (max-width: 435px) {
+      .wrap{
+        margin-left: 55px;
+      }
+
 
       .navbar-header
       {
@@ -3568,8 +3704,12 @@ Blog-page
             /* margin-left: 20px; */
             
         }
+
+        .about{
+          margin-left: 40px;
+        }
         .about img{
-          margin-left: 30px;
+         
           height: 300px;
           margin-top: 5px;
 
@@ -3606,6 +3746,7 @@ Blog-page
         .part{
           margin-left: 45px;
         }
+        
 
         
         .specialities .inner-contant {
@@ -3636,6 +3777,10 @@ Blog-page
         blockquote {
             font-size: 12.5px;
         }
+
+        .customers{
+          margin-left: 25px;
+        }
         .customers blockquote {
             border: none;
             margin: 0;
@@ -3662,6 +3807,9 @@ Blog-page
             padding-top: 20px;
             margin-left: 45px;
         }
+
+
+        
         footer li a {
             padding: 8px;
             font-size: 10px;
@@ -3686,7 +3834,7 @@ Blog-page
             padding-top: 0;
         }
         .services{
-          margin-left: 40px;
+          margin-left: 45px;
         }
         #services h3 {
             font-size: 22px;
@@ -3713,6 +3861,10 @@ Blog-page
 
         .contact{
           margin-left: 45px;
+        }
+
+        .footer{
+          margin-left: 20px;
         }
     } 
     /*======== Media Query 375px ========*/
