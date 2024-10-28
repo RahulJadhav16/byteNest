@@ -462,7 +462,9 @@ a:hover {
 .services {
     text-align: center;
     padding-top: 77px;
+
 }
+
 
 .services h3 {
     font-size: 37px;
@@ -1087,16 +1089,19 @@ footer .form-control {
     padding-top: 120px;
 }
 
+
+
 #about-us p {
-    margin: 0;
-    color: #808080;
+
+  
+    color: #fffcfc;
     font-size: 17px;
     line-height: 1.6;
     font-weight: 100;
     text-align: justify;
     padding: 0 0;
     font-family: Helvetica;
-    margin-bottom: 250px;
+    margin-top: 80px;
 }
 
 #about-us .image {
@@ -3253,10 +3258,9 @@ Blog-page
     #about-us p {
         margin-bottom: 60px;
         font-size: 16px;
+        margin-left: 16px;
     }
-    #about-us {
-        padding-top: 50px;
-    }
+  
     #blog h6 {
         font-size: 14px;
         letter-spacing: 1px;
@@ -3449,6 +3453,7 @@ Blog-page
         }
         .banner h1 {
             font-size: 34px;
+            margin-top: 10px;
         }
         .banner p {
             font-size: 21px;
@@ -3462,6 +3467,7 @@ Blog-page
             margin-right: 5px;
             padding: 13px 0;
         }
+     
         #services h3 {
             font-size: 32px;
         }
@@ -3530,6 +3536,10 @@ Blog-page
     }
     /*======== Media Query 435px ========*/
      @media only screen and (max-width: 435px) {
+      .wrap{
+        margin-left: 55px;
+      }
+
 
       .navbar-header
       {
@@ -3568,8 +3578,12 @@ Blog-page
             /* margin-left: 20px; */
             
         }
+
+        .about{
+          margin-left: 40px;
+        }
         .about img{
-          margin-left: 30px;
+         
           height: 300px;
           margin-top: 5px;
 
@@ -3606,6 +3620,7 @@ Blog-page
         .part{
           margin-left: 45px;
         }
+        
 
         
         .specialities .inner-contant {
@@ -3636,6 +3651,10 @@ Blog-page
         blockquote {
             font-size: 12.5px;
         }
+
+        .customers{
+          margin-left: 25px;
+        }
         .customers blockquote {
             border: none;
             margin: 0;
@@ -3662,6 +3681,9 @@ Blog-page
             padding-top: 20px;
             margin-left: 45px;
         }
+
+
+        
         footer li a {
             padding: 8px;
             font-size: 10px;
@@ -3686,7 +3708,7 @@ Blog-page
             padding-top: 0;
         }
         .services{
-          margin-left: 40px;
+          margin-left: 45px;
         }
         #services h3 {
             font-size: 22px;
@@ -3713,6 +3735,10 @@ Blog-page
 
         .contact{
           margin-left: 45px;
+        }
+
+        .footer{
+          margin-left: 20px;
         }
     } 
     /*======== Media Query 375px ========*/
