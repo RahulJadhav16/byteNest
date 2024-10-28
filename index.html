@@ -541,17 +541,23 @@
          <p><i class="fa fa-phone" aria-hidden="true"></i>+91 6283481452</p>
      </address>
     </div>
-    <form>
+
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="b9dfa4fa-2554-4802-af9b-3065cc56f404">
+
     <div class="col-sm-6 col">
+      
       <div class="row" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+        
         <div class="col-sm-6 col form-group">
-          <input class="form-control" placeholder="Your Name" type="text" required />
+          <input class="form-control" name='name' placeholder="Your Name" type="text" required />
         </div>
         <div class="col-sm-6 col form-group">
-          <input class="form-control" placeholder="Your Email Id" type="email" required />
+          <input class="form-control" name="email" placeholder="Your Email Id" type="email" required />
         </div>
       </div>
-      <textarea class="form-control" placeholder="Your Message" rows="8" required></textarea>
+      <textarea class="form-control" name="message" placeholder="Your Message" rows="8" required></textarea>
       <div class="row">
         <div class="col-sm-12 col form-group">
           <button type="submit" class="btn btn-default pull-left">lets make awesome</button>
