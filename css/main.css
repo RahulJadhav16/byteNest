@@ -571,6 +571,34 @@ a:hover {
     
 }
 
+
+.SeeLiveBtn {
+  margin-bottom: 20px;
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.SeeLiveBtn:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.SeeLiveBtn a {
+  color: inherit; /* Inherit the button text color */
+  text-decoration: none; /* Remove underline from link */
+  display: block; /* Make the link fill the button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+
 .services h5 {
     font-size: 16px;
     color: black;
