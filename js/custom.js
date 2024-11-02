@@ -22,3 +22,17 @@ $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$("
 $(function(){
 	$('.thumbnail').viewbox();
 });
+
+//Loader logic 
+window.addEventListener('load', function() {
+    const loader = document.getElementById('loader');
+    const content = document.getElementById('content');
+
+    // Set a delay of 2 seconds (2000 milliseconds)
+    setTimeout(function() {
+        loader.style.display = 'none';
+        content.style.display = 'block';
+    }, 2000); // Adjust the delay time as needed
+});
+
+
