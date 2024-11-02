@@ -32,7 +32,7 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         loader.style.display = 'none';
         content.style.display = 'block';
-    }, 2000); // Adjust the delay time as needed
+    }, 1300); // Adjust the delay time as needed
 });
 
 
